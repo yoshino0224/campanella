@@ -512,6 +512,10 @@ h5 {
         margin: 0 auto;
         width: 60vw;
     }
+
+    .sns h3 {
+        margin-top: 0.1%;
+    }
 }
 
 @media (max-width:375px) {
