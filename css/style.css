@@ -15,19 +15,19 @@ p {
 }
 
 
-label{
+label {
     position: absolute;
-    top:10px;
-    right:10px;
-    width:40px;
-    height:40px;
-    display:block;
+    top: 10px;
+    right: 10px;
+    width: 40px;
+    height: 40px;
+    display: block;
     background: #777;
-    border-radius:5px;
-	z-index: 1000;
+    border-radius: 5px;
+    z-index: 1000;
 }
 
-label span{
+label span {
     width: 60%;
     height: 4px;
     display: block;
@@ -35,72 +35,83 @@ label span{
     left: 20%;
     background-color: #fff;
     border-radius: 5px;
-	/*ハンバーガーメニュー変化アニメーション*/
+    /*ハンバーガーメニュー変化アニメーション*/
     transition: all 0.2s linear;
 }
 
-label span:nth-of-type(1){
-    top:10px;
+label span:nth-of-type(1) {
+    top: 10px;
     transform: rotate(0);
 }
-label span:nth-of-type(2){
+
+label span:nth-of-type(2) {
     top: 18px;
     transform: scale(1);
 }
-label span:nth-of-type(3){
+
+label span:nth-of-type(3) {
     bottom: 10px;
     transform: rotate(0);
 }
 
-#open:checked+label span:nth-of-type(1){
-    top:18px;
+#open:checked+label span:nth-of-type(1) {
+    top: 18px;
     transform: rotate(-45deg);
 }
-#open:checked+label span:nth-of-type(2){
+
+#open:checked+label span:nth-of-type(2) {
     transform: scale(0);
 }
-#open:checked+label span:nth-of-type(3){
-    bottom:18px;
+
+#open:checked+label span:nth-of-type(3) {
+    bottom: 18px;
     transform: rotate(45deg);
 }
 
-#menuWrap ul{
+#menuWrap ul {
     /* margin: 0 auto; */
-	padding-top: 60px;
-    padding-left:0;
+    padding-top: 60px;
+    padding-left: 0;
 }
-li{
+
+li {
     list-style: none;
-	padding: 10px;
+    padding: 10px;
 }
-a{
+
+a {
     text-decoration: none;
     color: #fff;
 }
-#menuWrap{
+
+#menuWrap {
     position: fixed;
-    top:0;
-    right:-240px;
-    overflow:hidden;
+    top: 0;
+    right: -240px;
+    overflow: hidden;
     width: 200px;
     height: 100%;
-    padding:20px;
-    transition: left.5s,right.5s;
-    background-color: rgba(86,86,86,.7);
+    padding: 20px;
+    transition: left.5s, right.5s;
+    background-color: rgba(86, 86, 86, .7);
     z-index: 1000;
 }
-.toggle{
-    font-size:30px;
-    cursor:pointer;
+
+.toggle {
+    font-size: 30px;
+    cursor: pointer;
     z-index: 10000;
 }
-.toggle:hover{
+
+.toggle:hover {
     text-decoration: underline;
 }
-#open{
-    display:none;
+
+#open {
+    display: none;
 }
-#open:checked~#menuWrap{
+
+#open:checked~#menuWrap {
     right: 0;
 }
 
@@ -442,7 +453,7 @@ h5 {
 
 
 @media (max-width:800px) {
-    
+
     .top h2 {
         font-size: 24px;
     }
@@ -459,7 +470,7 @@ h5 {
         width: 80vw;
         margin: 0 auto;
     }
-    
+
     .reservationImg1 {
         width: 88%;
         flex-direction: column;
@@ -467,7 +478,7 @@ h5 {
     }
 
     .reservation h4 {
-        font-size: 16px;
+        font-size: 18px;
     }
 
     .space_access ul {
@@ -514,6 +525,14 @@ h5 {
 
     .concept p {
         margin-bottom: 8%;
+    }
+
+    .reservation1 h4 {
+        font-size: 18px;
+    }
+
+    .sns h3 {
+        margin-top: -1%;
     }
 
 
