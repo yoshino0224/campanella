@@ -441,7 +441,7 @@ h5 {
 
 
 
-@media (width <=800px) {
+@media (max-width:800px) {
     
     .top h2 {
         font-size: 24px;
@@ -495,7 +495,7 @@ h5 {
 
 }
 
-@media (width <=600px) {
+@media (max-width:600px) {
     .menu ul {
         flex-direction: column;
         margin: 0 auto;
@@ -503,7 +503,7 @@ h5 {
     }
 }
 
-@media (width <=375px) {
+@media (max-width:375px) {
     .top h2 {
         font-size: 18px;
     }
