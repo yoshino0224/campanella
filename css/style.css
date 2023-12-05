@@ -201,12 +201,12 @@ h3 {
     background-color: #ffffff;
     margin: 0 auto;
     margin-bottom: 1%;
-    /* margin-top: 2%; */
+    /* padding-top: 2%; */
     text-align: center;
 }
 
 .concept h3 {
-    margin-top: 2.5%;
+    margin-top: 2%;
 }
 
 .concept p {
@@ -381,7 +381,7 @@ h5 {
 .sns h3 {
     width: 60px;
     margin-bottom: 0.5%;
-    margin-top: 0.5%;
+    /* margin-top: 0.5%; */
 }
 
 .sns p {
@@ -514,7 +514,7 @@ h5 {
     }
 
     .sns h3 {
-        margin-top: 0.1%;
+        margin-top: -0.5%;
     }
 }
 
